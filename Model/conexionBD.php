@@ -6,7 +6,7 @@ function AbrirBaseDatos()
     $host="localhost";
     $port="1521";
     $dbname="orcl";
-    $user="PROYECTO_MARICRUZ";
+    $user="proyecto_libny";
     $passwrod="12345";
 
     $dsn = "oci:dbname=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=$host)(PORT=$port)))(CONNECT_DATA=(SID=$dbname)))";
