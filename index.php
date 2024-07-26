@@ -9,4 +9,3 @@ else {
 
 header("location: View/home.php");
 
-?>
