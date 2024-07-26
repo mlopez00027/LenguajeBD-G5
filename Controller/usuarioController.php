@@ -2,7 +2,7 @@
 
     if(isset($_POST["btnRegistrarme"]))
     {
-        RegistrarUsuario();
+        RegistrarUsuario($conn, $nombre, $email, $password);
         header("location: ../View/login.php");
     }
 
